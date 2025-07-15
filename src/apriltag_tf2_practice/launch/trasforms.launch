@@ -1,0 +1,16 @@
+<launch>
+  <!-- Launch the robot static transform -->
+  <include file="$(find exercise_4_1)/launch/static_robot_tf.launch" />
+
+  <!-- Launch AprilTag detection -->
+  <include file="$(find exercise_4_1)/launch/iaslab_apriltag.launch" />
+
+  <!-- Play rosbag in a loop -->
+  <node name="bag_play" pkg="rosbag" type="play" args="/home/nikolavukas/exercises_ws/bag/bag_es_4_1_detection.bag --loop" output="screen" />
+
+  <!-- Launch rqt_image_view -->
+  <node name="rqt_image_view" pkg="rqt_image_view" type="rqt_image_view" output="screen" />
+
+  <!-- Launch your custom tag manipulation node
+  <node name="tag_manipulation" pkg="apriltag_tf2_practice" type="tag_manipulation" output="screen" /> -->
+</launch>
