@@ -1,0 +1,1 @@
+/home/nikolavukas/exercises_ws/devel/.private/action_exercise/lib/python3/dist-packages/action_exercise/msg/_ChargingFeedback.py

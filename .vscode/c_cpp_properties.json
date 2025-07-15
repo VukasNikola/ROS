@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/nikolavukas/ROS/move_train/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_planners/chomp/chomp_motion_planner/include/**",
+        "/home/nikolavukas/ROS/move_train/src/franka_ros/franka_control/include/**",
+        "/home/nikolavukas/ROS/move_train/src/franka_ros/franka_example_controllers/include/**",
+        "/home/nikolavukas/ROS/move_train/src/franka_ros/franka_gazebo/include/**",
+        "/home/nikolavukas/ROS/move_train/src/franka_ros/franka_gripper/include/**",
+        "/home/nikolavukas/ROS/move_train/src/franka_ros/franka_hw/include/**",
+        "/home/nikolavukas/ROS/move_train/src/geometric_shapes/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_planners/chomp/chomp_interface/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit_resources/prbt_ikfast_manipulator_plugin/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_ros/benchmarks/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_plugins/moveit_ros_control_interface/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_ros/move_group/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_ros/occupancy_map_monitor/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_ros/robot_interaction/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_ros/moveit_servo/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_setup_assistant/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit_visual_tools/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_planners/pilz_industrial_motion_planner/include/**",
+        "/home/nikolavukas/ROS/move_train/src/moveit/moveit_planners/pilz_industrial_motion_planner_testutils/include/**",
+        "/home/nikolavukas/ROS/move_train/src/rviz_visual_tools/include/**",
+        "/home/nikolavukas/ROS/move_train/src/srdfdom/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

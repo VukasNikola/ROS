@@ -1,0 +1,55 @@
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingActionGoal
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingActionFeedback
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingGoal
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingActionResult
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingResult
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingAction
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingFeedback
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[ 19%] Built target action_exercise_generate_messages_lisp
+[ 36%] Built target action_exercise_generate_messages_py
+[ 65%] Built target action_exercise_generate_messages_nodejs
+[ 80%] Built target action_exercise_generate_messages_eus
+[ 90%] Built target action_exercise_generate_messages_cpp
+[35m[1mScanning dependencies of target charging_client[0m
+[ 90%] Built target action_exercise_generate_messages
+[ 95%] Built target charging_server
+[ 97%] [32mBuilding CXX object CMakeFiles/charging_client.dir/src/charging_client.cpp.o[0m
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_client.cpp:27:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kbool[m[K’
+   27 |                 &charge_level)
+      |                               [01;31m[K^[m[K
+      |                               [32m[K;[m[K
+   28 |     [32m[Kbool[m[K finished_before_timeout = ac.waitForResult(ros::Duration(90.0));
+      |     [32m[K~~~~[m[K                       
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_client.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfinished_before_timeout[m[K’ was not declared in this scope
+   29 |     if ([01;31m[Kfinished_before_timeout[m[K)
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/charging_client.dir/build.make:63: CMakeFiles/charging_client.dir/src/charging_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:217: CMakeFiles/charging_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

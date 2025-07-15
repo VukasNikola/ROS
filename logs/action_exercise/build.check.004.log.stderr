@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /home/nikolavukas/exercises_ws/build/action_exercise/cmake/action_exercise-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/nikolavukas/exercises_ws/devel/.private/action_exercise/share/action_exercise/msg/ChargingAction.msg'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [GoalID]: unknown package [actionlib_msgs] on search
+  path [{{'action_exercise':
+  ['/home/nikolavukas/exercises_ws/devel/.private/action_exercise/share/action_exercise/msg'],
+  'std_msgs': ['/opt/ros/noetic/share/std_msgs/cmake/../msg']}}]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:72 (generate_messages)
+
+
+make: *** [Makefile:926: cmake_check_build_system] Error 1

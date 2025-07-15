@@ -1,0 +1,1 @@
+/home/nikolavukas/exercises_ws/devel/.private/action_exercise/share/roseus/ros/action_exercise/msg/ChargingActionFeedback.l

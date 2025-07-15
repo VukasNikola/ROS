@@ -1,0 +1,148 @@
+[35m[1mScanning dependencies of target _action_exercise_generate_messages_check_deps_ChargingGoal[0m
+[35m[1mScanning dependencies of target _action_exercise_generate_messages_check_deps_ChargingActionFeedback[0m
+[35m[1mScanning dependencies of target _action_exercise_generate_messages_check_deps_ChargingActionResult[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _action_exercise_generate_messages_check_deps_ChargingActionGoal[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target _action_exercise_generate_messages_check_deps_ChargingAction[0m
+[35m[1mScanning dependencies of target _action_exercise_generate_messages_check_deps_ChargingResult[0m
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingGoal
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingActionFeedback
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingActionResult
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingActionGoal
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _action_exercise_generate_messages_check_deps_ChargingFeedback[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingAction
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingResult
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingFeedback
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  2%] [34m[1mGenerating Lisp code from action_exercise/ChargingAction.msg[0m
+[  4%] [34m[1mGenerating Python from MSG action_exercise/ChargingAction[0m
+[  7%] [34m[1mGenerating Python from MSG action_exercise/ChargingActionGoal[0m
+[  9%] [34m[1mGenerating EusLisp code from action_exercise/ChargingAction.msg[0m
+[ 12%] [34m[1mGenerating Javascript code from action_exercise/ChargingAction.msg[0m
+[ 14%] [34m[1mGenerating C++ code from action_exercise/ChargingAction.msg[0m
+[ 17%] [34m[1mGenerating Lisp code from action_exercise/ChargingActionGoal.msg[0m
+[ 19%] [34m[1mGenerating Javascript code from action_exercise/ChargingActionGoal.msg[0m
+[ 21%] [34m[1mGenerating EusLisp code from action_exercise/ChargingActionGoal.msg[0m
+[ 24%] [34m[1mGenerating Lisp code from action_exercise/ChargingActionResult.msg[0m
+[ 26%] [34m[1mGenerating C++ code from action_exercise/ChargingActionGoal.msg[0m
+[ 29%] [34m[1mGenerating Javascript code from action_exercise/ChargingActionResult.msg[0m
+[ 31%] [34m[1mGenerating Lisp code from action_exercise/ChargingActionFeedback.msg[0m
+[ 34%] [34m[1mGenerating Python from MSG action_exercise/ChargingActionResult[0m
+[ 36%] [34m[1mGenerating Python from MSG action_exercise/ChargingActionFeedback[0m
+[ 39%] [34m[1mGenerating EusLisp code from action_exercise/ChargingActionResult.msg[0m
+[ 41%] [34m[1mGenerating Javascript code from action_exercise/ChargingActionFeedback.msg[0m
+[ 43%] [34m[1mGenerating Lisp code from action_exercise/ChargingGoal.msg[0m
+[ 46%] [34m[1mGenerating C++ code from action_exercise/ChargingActionResult.msg[0m
+[ 48%] [34m[1mGenerating EusLisp code from action_exercise/ChargingActionFeedback.msg[0m
+[ 51%] [34m[1mGenerating Javascript code from action_exercise/ChargingGoal.msg[0m
+[ 53%] [34m[1mGenerating Python from MSG action_exercise/ChargingGoal[0m
+[ 56%] [34m[1mGenerating Lisp code from action_exercise/ChargingResult.msg[0m
+[ 58%] [34m[1mGenerating Python from MSG action_exercise/ChargingResult[0m
+[ 60%] [34m[1mGenerating Javascript code from action_exercise/ChargingResult.msg[0m
+[ 63%] [34m[1mGenerating C++ code from action_exercise/ChargingActionFeedback.msg[0m
+[ 65%] [34m[1mGenerating EusLisp code from action_exercise/ChargingGoal.msg[0m
+[ 68%] [34m[1mGenerating Lisp code from action_exercise/ChargingFeedback.msg[0m
+[ 70%] [34m[1mGenerating Javascript code from action_exercise/ChargingFeedback.msg[0m
+[ 73%] [34m[1mGenerating Python from MSG action_exercise/ChargingFeedback[0m
+[ 73%] Built target action_exercise_generate_messages_lisp
+[ 75%] [34m[1mGenerating EusLisp code from action_exercise/ChargingResult.msg[0m
+[ 78%] [34m[1mGenerating EusLisp code from action_exercise/ChargingFeedback.msg[0m
+[ 80%] [34m[1mGenerating EusLisp manifest code for action_exercise[0m
+[ 80%] Built target action_exercise_generate_messages_nodejs
+[ 82%] [34m[1mGenerating C++ code from action_exercise/ChargingGoal.msg[0m
+[ 85%] [34m[1mGenerating C++ code from action_exercise/ChargingResult.msg[0m
+[ 87%] [34m[1mGenerating C++ code from action_exercise/ChargingFeedback.msg[0m
+[ 90%] [34m[1mGenerating Python msg __init__.py for action_exercise[0m
+[ 90%] Built target action_exercise_generate_messages_cpp
+[ 90%] Built target action_exercise_generate_messages_py
+[ 90%] Built target action_exercise_generate_messages_eus
+[35m[1mScanning dependencies of target charging_server[0m
+[35m[1mScanning dependencies of target charging_client[0m
+[ 90%] Built target action_exercise_generate_messages
+[ 92%] [32mBuilding CXX object CMakeFiles/charging_client.dir/src/charging_client.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/charging_server.dir/src/charging_server.cpp.o[0m
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_server.cpp:[m[K In member function ‘[01m[Kvoid ChargingAction::executeCB(const ChargingGoalConstPtr&)[m[K’:
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_server.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope
+   29 |         [01;31m[Ksuccess[m[K = true;
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_server.cpp:29:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/exception/detail/exception_ptr.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception_ptr.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/future.hpp:34[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:24[m[K,
+                 from [01m[K/opt/ros/noetic/include/actionlib/server/action_server.h:41[m[K,
+                 from [01m[K/opt/ros/noetic/include/actionlib/server/simple_action_server.h:42[m[K,
+                 from [01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_server.cpp:2[m[K:
+[01m[K/usr/include/boost/exception/detail/clone_current_exception.hpp:34:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::exception_detail::clone_current_exception_result::success[m[K’
+   34 |             int const [01;36m[Ksuccess[m[K=0;
+      |                       [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_server.cpp:1[m[K:
+[01m[K/usr/include/boost/system/error_code.hpp:62:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::system::errc::success[m[K’
+   62 |     [01;36m[Ksuccess[m[K = 0,
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_client.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_exercide[m[K’ has not been declared
+   12 |     [01;31m[Kaction_exercide[m[K::ChargingGoal goal;
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_client.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+   13 |     [01;31m[Kgoal[m[K.goal_charge = 87.7;
+      |     [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/charging_server.dir/build.make:63: CMakeFiles/charging_server.dir/src/charging_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:274: CMakeFiles/charging_server.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/charging_client.dir/build.make:63: CMakeFiles/charging_client.dir/src/charging_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:217: CMakeFiles/charging_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

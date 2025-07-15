@@ -1,0 +1,8 @@
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_client.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_callback[m[K’ was not declared in this scope
+   25 |     ac.sendGoal(goal, [01;31m[Kfeedback_callback[m[K = &charge_level);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/charging_client.dir/build.make:63: CMakeFiles/charging_client.dir/src/charging_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:217: CMakeFiles/charging_client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

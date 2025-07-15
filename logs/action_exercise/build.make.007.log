@@ -1,0 +1,53 @@
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingActionResult
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingGoal
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingActionGoal
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingResult
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingActionFeedback
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingAction
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target _action_exercise_generate_messages_check_deps_ChargingFeedback
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[ 19%] Built target action_exercise_generate_messages_py
+[ 36%] Built target action_exercise_generate_messages_lisp
+[ 56%] Built target action_exercise_generate_messages_eus
+[ 73%] Built target action_exercise_generate_messages_nodejs
+[ 90%] Built target action_exercise_generate_messages_cpp
+[35m[1mScanning dependencies of target charging_client[0m
+[35m[1mScanning dependencies of target charging_server[0m
+[ 90%] Built target action_exercise_generate_messages
+[ 92%] [32mBuilding CXX object CMakeFiles/charging_client.dir/src/charging_client.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/charging_server.dir/src/charging_server.cpp.o[0m
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nikolavukas/exercises_ws/src/action_exercise/src/charging_client.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_callback[m[K’ was not declared in this scope
+   25 |     ac.sendGoal(goal, [01;31m[Kfeedback_callback[m[K = &charge_level);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/charging_client.dir/build.make:63: CMakeFiles/charging_client.dir/src/charging_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:217: CMakeFiles/charging_client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 97%] [32m[1mLinking CXX executable /home/nikolavukas/exercises_ws/devel/.private/action_exercise/lib/action_exercise/charging_server[0m
+[ 97%] Built target charging_server
+make: *** [Makefile:141: all] Error 2

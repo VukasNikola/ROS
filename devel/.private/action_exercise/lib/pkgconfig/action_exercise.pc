@@ -1,0 +1,8 @@
+prefix=/home/nikolavukas/exercises_ws/devel/.private/action_exercise
+
+Name: action_exercise
+Description: Description of action_exercise
+Version: 0.0.0
+Cflags: -I/home/nikolavukas/exercises_ws/devel/.private/action_exercise/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs roscpp std_msgs message_runtime

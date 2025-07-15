@@ -1,0 +1,11 @@
+#goal definition
+std_msgs/Header header
+float32 goal_charge
+---
+#result definition
+std_msgs/Header header
+bool charged
+---
+#feedback
+std_msgs/Header header
+float32 current_charge
