@@ -13,13 +13,12 @@
 #include <tf2_ros/message_filter.h>
 #include <boost/bind.hpp>
 
-
-tf2_ros::TransformBroadcaster* brPtr;
-tf2_ros::Buffer* tfBufferPtr;
+tf2_ros::TransformBroadcaster *brPtr;
+tf2_ros::Buffer *tfBufferPtr;
 
 void detectionCallback(const apriltag_ros::AprilTagDetectionArray::ConstPtr &msg)
 {
-
+    ROS_INFO("Called");
     for (const auto &tag : msg->detections)
     {
         geometry_msgs::PoseStamped base_to_tag;
@@ -31,7 +30,7 @@ void detectionCallback(const apriltag_ros::AprilTagDetectionArray::ConstPtr &msg
         tfBufferPtr->transform(camera_to_tag, base_to_tag, "base_link");
 
         geometry_msgs::TransformStamped transformStamped;
-        
+
         transformStamped.header.stamp = ros::Time::now();
         transformStamped.header.frame_id = "base_link";
         transformStamped.child_frame_id = "tag_" + std::to_string(tag.id[0]);
@@ -59,11 +58,12 @@ int main(int argc, char **argv)
 
     brPtr = &br;
     tfBufferPtr = &tfBuffer;
-    
+
     message_filters::Subscriber<apriltag_ros::AprilTagDetectionArray> sub(nh, "tag_detections", 10);
-    
+
     tf2_ros::MessageFilter<apriltag_ros::AprilTagDetectionArray> *mf;
     mf = new tf2_ros::MessageFilter<apriltag_ros::AprilTagDetectionArray>(sub, tfBuffer, "base_link", 10, nh);
+    
     mf->registerCallback(boost::bind(&detectionCallback, _1));
 
     ros::spin();
