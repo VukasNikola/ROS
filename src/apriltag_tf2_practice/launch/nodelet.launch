@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="nodelet" type="nodelet" name="scan_to_cloud_converter" args="standalone scan_to_cloud_converter/ScanToCloudConverter">
+    <remap from="scan" to="/scan" />
+    <remap from="cloud" to="/scan_cloud" />
+  </node>
+</launch>

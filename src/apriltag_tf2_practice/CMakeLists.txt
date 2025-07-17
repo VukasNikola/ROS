@@ -160,7 +160,13 @@ target_link_libraries(tag_manipulation ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############
+add_executable(cv_tag src/cv_tag.cpp)
+add_dependencies(cv_tag ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(cv_tag ${catkin_LIBRARIES})
 
+add_executable(scan src/scan.cpp)
+add_dependencies(scan ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(scan ${catkin_LIBRARIES})
 # all install targets should use catkin DESTINATION variables
 # See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html
 
